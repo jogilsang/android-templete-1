@@ -13,6 +13,7 @@ import jgs.com.jogilsang.kakasubstitutedriving.fragment.tabFragment1;
 import jgs.com.jogilsang.kakasubstitutedriving.fragment.tabFragment2;
 import jgs.com.jogilsang.kakasubstitutedriving.fragment.tabFragment3;
 import jgs.com.jogilsang.kakasubstitutedriving.fragment.tabFragment4;
+import jgs.com.jogilsang.kakasubstitutedriving.fragment.tabFragment5;
 import jgs.com.jogilsang.kakasubstitutedriving.helper.BottomNavigationViewHelper;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public static tabFragment2 tab2 = new tabFragment2();
     public static tabFragment3 tab3 = new tabFragment3();
     public static tabFragment4 tab4 = new tabFragment4();
+    public static tabFragment5 tab5 = new tabFragment5();
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -44,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_4:
                     viewPager.setCurrentItem(3);
+                    return true;
+                case R.id.navigation_5:
+                    viewPager.setCurrentItem(4);
                     return true;
             }
             return false;
