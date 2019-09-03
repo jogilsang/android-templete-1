@@ -1,0 +1,11 @@
+<resources>
+
+    <string-array name="examples">
+        <item>쓸것</item>
+        <item>쓸것 2</item>
+        <item>쓸것3</item>
+        <item>쓸것4</item>
+
+    </string-array>
+
+</resources>

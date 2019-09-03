@@ -6,6 +6,9 @@
     <color name="black_overlay">#66000000</color>
     <color name="light_gray">#D3D3D3</color>
 
+    <color name="grey">#DDDDDD</color>
+    <color name="darkgreen">#00FF00</color>
+
     <color name="color_main">#FFFFFF</color>
     <color name="color_sub">#000000</color>
     <color name="dodger_blue">#1E90FF</color>

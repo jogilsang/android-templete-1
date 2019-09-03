@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KaKaSubstituteDriving.iml" filepath="$PROJECT_DIR$/KaKaSubstituteDriving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-templete-1-git.iml" filepath="$PROJECT_DIR$/android-templete-1-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
